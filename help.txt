@@ -1,0 +1,7 @@
+
+USAGE:
+    cargo run [program number]
+
+PROGRAM:
+    1       print Hello world
+

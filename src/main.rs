@@ -3,6 +3,7 @@ use std::fs::File;
 use std::str::FromStr;
 
 use study::study_1;
+use study::study_2;
 mod study;
 
 fn main() {
@@ -13,7 +14,7 @@ fn main() {
 
         match num {
             1 => study_1::run(),
-            2 => print!("2 is selected"),
+            2 => study_2::run(),
             _ => print_help(),
         }
     } else {
